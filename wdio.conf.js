@@ -23,7 +23,7 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        './test/specs/Class1/sampleRun.js'
+        './test/specs/Class1/Hw/Class2/Workspace.js'
     ],
     // Patterns to exclude.
     exclude: [
