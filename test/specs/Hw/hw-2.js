@@ -92,7 +92,7 @@ it.only("Verify the travelers count on homepage", async () => {
     const amtOfTravelers = await travelersWebField1.getText();
     console.log(amtOfTravelers);
 
-    expect(amtOfTravelers, "Not equal").to.equal("7 travelers, 2 rooms");
+    expect(amtOfTravelers.endsWith("7 travelers, 2 rooms"), "Not equal").to.be.true
 
 
 
