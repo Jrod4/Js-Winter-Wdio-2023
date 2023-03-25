@@ -58,7 +58,7 @@ describe("Launch Page", () => {
   })
 
 
-  it.only("TC-3: Verify the empty messenger login flow", async () => {
+  it("TC-3: Verify the empty messenger login flow", async () => {
     //lauch webpage
     await browser.url("https://www.facebook.com/");
     await browser.pause(2000);

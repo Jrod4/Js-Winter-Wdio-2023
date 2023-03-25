@@ -58,7 +58,7 @@ expect(currDate, "Are not the same").to.equal(defaultDate1);
 })
 
 
-it.only("Verify the travelers count on homepage", async () => {
+it("Verify the travelers count on homepage", async () => {
 
     await browser.url("https://www.hotels.com/");
     await browser.pause(2000);
@@ -94,6 +94,7 @@ it.only("Verify the travelers count on homepage", async () => {
 
     expect(amtOfTravelers.endsWith("7 travelers, 2 rooms"), "Not equal").to.be.true
 
+ 
 
 
 
